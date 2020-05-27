@@ -1,5 +1,17 @@
 import React from "react";
 import {charsToSpans} from "./utils.js";
+import rebus11 from "./images/rebus11.png";
+import rebus12 from "./images/rebus12.png";
+import rebus13 from "./images/rebus13.png";
+import rebus14 from "./images/rebus14.png";
+import rebus15 from "./images/rebus15.png";
+import rebus21 from "./images/rebus21.png";
+import rebus22 from "./images/rebus22.png";
+import rebus23 from "./images/rebus23.png";
+import rebus24 from "./images/rebus24.png";
+import rebus31 from "./images/rebus31.png";
+import rebus32 from "./images/rebus32.png";
+import rebus33 from "./images/rebus33.png";
 
 export default [
     {
@@ -33,9 +45,14 @@ export default [
         hash: "2q7222m888",
         type: "Rébus",
         riddle:
-            <div>
+            <div className="row">
+                <img className="image-fluid col-4" src={rebus11} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus12} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus13} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus14} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus15} alt="Rebus"/>
             </div>,
-        answer: 0,
+        answer: "papillon de nuit",
         clue: <p>Clue</p>
     },
     {
@@ -80,7 +97,11 @@ export default [
         hash: "dg8fv6xqjb",
         type: "Rébus",
         riddle:
-            <div>
+            <div className="row">
+                <img className="image-fluid col-4" src={rebus21} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus22} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus23} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus24} alt="Rebus"/>
             </div>,
         answer: 0,
         clue: <p>Clue</p>
@@ -127,9 +148,12 @@ export default [
         hash: "dp9fkaq4aa",
         type: "Rébus",
         riddle:
-            <div>
+            <div className="row">
+                <img className="image-fluid col-4" src={rebus31} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus32} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus33} alt="Rebus"/>
             </div>,
-        answer: 0,
+        answer: "dramatique",
         clue: <p>Clue</p>
     },
     {
