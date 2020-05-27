@@ -1,5 +1,4 @@
 import React from "react";
-import {charsToSpans} from "./utils.js";
 import rebus11 from "./images/rebus11.png";
 import rebus12 from "./images/rebus12.png";
 import rebus13 from "./images/rebus13.png";
@@ -12,6 +11,7 @@ import rebus24 from "./images/rebus24.png";
 import rebus31 from "./images/rebus31.png";
 import rebus32 from "./images/rebus32.png";
 import rebus33 from "./images/rebus33.png";
+import {charsToSpans} from "./utils.js";
 
 export default [
     {
@@ -88,8 +88,15 @@ export default [
         type: "Math",
         riddle:
             <div>
+                <code>a - ( b * c + d )</code>
+                <div className="text-left my-4">
+                    <p>a = l'année de sortie de Pulp Fiction</p>
+                    <p>b = le nombre actuel de films de la saga "Fast & Furious"</p>
+                    <p>b = le nombre de saisons de Rome</p>
+                    <p>c = le nombre de bûches dans la réserve à côté de notre cheminée</p>
+                </div>
             </div>,
-        answer: 0,
+        answer: 1977,
         clue: <p>Clue</p>
     },
     {
@@ -139,8 +146,15 @@ export default [
         type: "Math",
         riddle:
             <div>
+                <code>a * b - c * d</code>
+                <div className="text-left my-4">
+                    <p>a = l'année de naissance d'Irina</p>
+                    <p>b = le nombre de flèches que Boromir se prend avant de mourir</p>
+                    <p>c = la 4e décimale de Pi</p>
+                    <p>d = le nombre de saisons de How I Met Your Mother</p>
+                </div>
             </div>,
-        answer: 0,
+        answer: 5940,
         clue: <p>Clue</p>
     },
     {
