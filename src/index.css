@@ -1,12 +1,44 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Mono&display=swap');
 
+@font-face {
+  font-family: Aurebesh;
+  src: url("./fonts/Aurebesh.ttf");
+}
+
+@font-face {
+  font-family: JungleSlang;
+  src: url("./fonts/JungleSlang.ttf");
+}
+
+@font-face {
+  font-family: Necrofonticon;
+  src: url("./fonts/necrofonticon.ttf");
+}
+
 body {
   font-family: 'Kalam', cursive;
 }
 
+.aurebesh {
+  font-family: Aurebesh, sans-serif;
+  font-size: 1.2em;
+}
+
+.jungleslang {
+  font-family: JungleSlang, sans-serif;
+  font-size: 1.5em;
+}
+
+.necrofonticon {
+  font-family: Necrofonticon, sans-serif;
+  font-size: 1.5em;
+}
+
 header {
   background-image: url("./treasure-map.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 code {
