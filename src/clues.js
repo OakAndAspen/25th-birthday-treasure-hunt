@@ -18,6 +18,7 @@ export default [
         id: 1,
         hash: "2bq8k5x9hq",
         type: "Math",
+        location: "Dans la gouttière par terre derrière la voiture",
         riddle:
             <div>
                 <code>x / y * z</code>
@@ -34,6 +35,7 @@ export default [
         id: 2,
         hash: "u435xzsvt7",
         type: "Mot dans un livre",
+        location: "Au dos d'un livre dans mon bureau",
         riddle:
             <div>
             </div>,
@@ -44,6 +46,7 @@ export default [
         id: 3,
         hash: "2q7222m888",
         type: "Rébus",
+        location: "Dans le four",
         riddle:
             <div className="row">
                 <img className="image-fluid col-4" src={rebus11} alt="Rebus"/>
@@ -59,6 +62,7 @@ export default [
         id: 4,
         hash: "c4be7kqgxa",
         type: "Message codé",
+        location: "Au milieu des bûches dans la cabane",
         riddle:
             <div>
                 <p className="necrofonticon">{charsToSpans("message")}</p>
@@ -76,6 +80,7 @@ export default [
         id: 5,
         hash: "vdg6zs677n",
         type: "Mot dans un texte",
+        location: "?",
         riddle:
             <div>
             </div>,
@@ -86,6 +91,7 @@ export default [
         id: 6,
         hash: "ega8ujjs5x",
         type: "Math",
+        location: "Collé sous l'arrosoir du balcon",
         riddle:
             <div>
                 <code>a - ( b * c + d )</code>
@@ -103,6 +109,7 @@ export default [
         id: 7,
         hash: "dg8fv6xqjb",
         type: "Rébus",
+        location: "Au milieu des plantes dans un bac du jardin",
         riddle:
             <div className="row">
                 <img className="image-fluid col-4" src={rebus21} alt="Rebus"/>
@@ -117,6 +124,7 @@ export default [
         id: 8,
         hash: "qx4raw2hwu",
         type: "Mot dans un livre",
+        location: "Au dos d'un livre au salon",
         riddle:
             <div>
             </div>,
@@ -127,6 +135,7 @@ export default [
         id: 9,
         hash: "42w99atmjd",
         type: "Message codé",
+        location: "Suspendu derrière le rideau de la salle de bain",
         riddle:
             <div>
                 <p className="jungleslang">{charsToSpans("message")}</p>
@@ -144,6 +153,7 @@ export default [
         id: 10,
         hash: "dhg3rg7n3z",
         type: "Math",
+        location: "Sous l'escalier en bois qui monte au bord de la Dranse",
         riddle:
             <div>
                 <code>a * b - c * d</code>
@@ -161,6 +171,7 @@ export default [
         id: 11,
         hash: "dp9fkaq4aa",
         type: "Rébus",
+        location: "Collé sous la boîte aux lettres",
         riddle:
             <div className="row">
                 <img className="image-fluid col-4" src={rebus31} alt="Rebus"/>
@@ -174,6 +185,7 @@ export default [
         id: 12,
         hash: "mb2bwqmyun",
         type: "Mot dans un livre",
+        location: "Au dos d'un livre dans mon bureau",
         riddle:
             <div>
             </div>,
@@ -184,6 +196,7 @@ export default [
         id: 13,
         hash: "jug2275uxf",
         type: "Message codé",
+        location: "?",
         riddle:
             <div>
                 <p className="aurebesh">{charsToSpans("message")}</p>

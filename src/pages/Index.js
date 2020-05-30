@@ -13,6 +13,7 @@ class Index extends React.Component {
                         <th>N°</th>
                         <th>Hash</th>
                         <th>Type</th>
+                        <th>Lieu</th>
                         <th>Enigme</th>
                         <th>Réponse</th>
                         <th>Indice</th>
@@ -25,6 +26,7 @@ class Index extends React.Component {
                             <a className="text-info" href={"/" + c.hash}>{c.hash}</a>
                         </td>
                         <td>{c.type}</td>
+                        <td>{c.location}</td>
                         <td>{c.riddle}</td>
                         <td>{c.answer}</td>
                         <td>{c.clue}</td>
