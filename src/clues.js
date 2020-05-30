@@ -69,8 +69,8 @@ export default [
                     {charsToSpans("mon super message code qui est super long et difficile")}
                 </p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: null,
+        clue: null
     },
     {
         id: 5,
@@ -137,8 +137,8 @@ export default [
                     {charsToSpans("mon super message code qui est super long et difficile")}
                 </p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: null,
+        clue: null
     },
     {
         id: 10,
@@ -194,7 +194,7 @@ export default [
                     {charsToSpans("mon super message code qui est super long et difficile")}
                 </p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: null,
+        clue: null
     }
 ];
