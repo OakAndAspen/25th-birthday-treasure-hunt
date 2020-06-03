@@ -11,6 +11,11 @@ import rebus24 from "./images/rebus24.png";
 import rebus31 from "./images/rebus31.png";
 import rebus32 from "./images/rebus32.png";
 import rebus33 from "./images/rebus33.png";
+import rebus41 from "./images/rebus41.png";
+import rebus42 from "./images/rebus42.png";
+import rebus43 from "./images/rebus43.png";
+import rebus44 from "./images/rebus44.png";
+import rebus45 from "./images/rebus45.png";
 import {charsToSpans} from "./utils.js";
 
 export default [
@@ -29,18 +34,25 @@ export default [
                 </div>
             </div>,
         answer: "20",
-        clue: <p>Indice pour trouver le n°2</p>
+        clue: <p>L'indice suivant se trouve en A9</p>
     },
     {
         id: 2,
         hash: "u435xzsvt7",
         type: "Mot dans un livre",
-        location: "Au dos d'un livre dans mon bureau",
+        location: "Au dos du livre 'Nos plus belles légendes' dans mon bureau",
         riddle:
             <div>
+                <p>90-2-1-8</p>
+                <p>32-6-3-1</p>
+                <p>111-10-4-1</p>
+                <p>142-6-5-1</p>
+                <p>119-5-3-2</p>
+                <p>45-1-5-2</p>
+                <p>16-2-8-2</p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: "TABLIER",
+        clue: <p>L'indice suivant se trouve en A6</p>
     },
     {
         id: 3,
@@ -56,7 +68,7 @@ export default [
                 <img className="image-fluid col-4" src={rebus15} alt="Rebus"/>
             </div>,
         answer: "papillon de nuit",
-        clue: <p>Clue</p>
+        clue: <p>L'indice suivant se trouve en I13</p>
     },
     {
         id: 4,
@@ -65,27 +77,32 @@ export default [
         location: "Au milieu des bûches dans la cabane",
         riddle:
             <div>
-                <p className="necrofonticon">{charsToSpans("message")}</p>
+                <p className="necrofonticon">{charsToSpans("ocelot")}</p>
                 <p>=</p>
-                <p>{charsToSpans("MESSAGE")}</p>
+                <p>{charsToSpans("OCELOT")}</p>
                 <hr/>
                 <p className="necrofonticon">
-                    {charsToSpans("mon super message code qui est super long et difficile")}
+                    {charsToSpans("suspendu en haut des escaliers")}
                 </p>
             </div>,
-        answer: null,
+        answer: "suspendu en haut des escaliers",
         clue: null
     },
     {
         id: 5,
         hash: "vdg6zs677n",
         type: "Mot dans un texte",
-        location: "?",
+        location: "Derrière la pancarte en haut des escaliers",
         riddle:
             <div>
+                <p>1-1-3</p>
+                <p>3-2-2</p>
+                <p>2-1-3</p>
+                <p>3-1-2</p>
+                <p>2-1-6</p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: "GOLEM",
+        clue: <p>L'indice suivant se trouve en E6</p>
     },
     {
         id: 6,
@@ -103,7 +120,7 @@ export default [
                 </div>
             </div>,
         answer: 1977,
-        clue: <p>Clue</p>
+        clue: <p>L'indice suivant se trouve en F12</p>
     },
     {
         id: 7,
@@ -117,19 +134,24 @@ export default [
                 <img className="image-fluid col-4" src={rebus23} alt="Rebus"/>
                 <img className="image-fluid col-4" src={rebus24} alt="Rebus"/>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: "la mort aux trousses",
+        clue: <p>L'indice suivant se trouve en C7</p>
     },
     {
         id: 8,
         hash: "qx4raw2hwu",
         type: "Mot dans un livre",
-        location: "Au dos d'un livre au salon",
+        location: "Au dos du livre 'Les régulateurs' au salon",
         riddle:
             <div>
+                <p>174-3-2-1</p>
+                <p>45-5-4-2</p>
+                <p>151-8-2-4</p>
+                <p>239-5-8-2</p>
+                <p>59-1-5-2</p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: "KARMA",
+        clue: <p>L'indice suivant se trouve en A8</p>
     },
     {
         id: 9,
@@ -138,22 +160,22 @@ export default [
         location: "Suspendu derrière le rideau de la salle de bain",
         riddle:
             <div>
-                <p className="jungleslang">{charsToSpans("message")}</p>
+                <p className="jungleslang">{charsToSpans("koala")}</p>
                 <p>=</p>
-                <p>{charsToSpans("MESSAGE")}</p>
+                <p>{charsToSpans("KOALA")}</p>
                 <hr/>
                 <p className="jungleslang">
-                    {charsToSpans("mon super message code qui est super long et difficile")}
+                    {charsToSpans("dans l arbre pres de la porte d entree")}
                 </p>
             </div>,
-        answer: null,
+        answer: "dans l arbre pres de la porte d entree",
         clue: null
     },
     {
         id: 10,
         hash: "dhg3rg7n3z",
         type: "Math",
-        location: "Sous l'escalier en bois qui monte au bord de la Dranse",
+        location: "Dans l'arbre près de la porte d'entrée",
         riddle:
             <div>
                 <code>a * b - c * d</code>
@@ -165,13 +187,13 @@ export default [
                 </div>
             </div>,
         answer: 5940,
-        clue: <p>Clue</p>
+        clue: <p>L'indice suivant se trouve en J3</p>
     },
     {
         id: 11,
         hash: "dp9fkaq4aa",
         type: "Rébus",
-        location: "Collé sous la boîte aux lettres",
+        location: "Dans la boîte aux lettres",
         riddle:
             <div className="row">
                 <img className="image-fluid col-4" src={rebus31} alt="Rebus"/>
@@ -179,35 +201,93 @@ export default [
                 <img className="image-fluid col-4" src={rebus33} alt="Rebus"/>
             </div>,
         answer: "dramatique",
-        clue: <p>Clue</p>
+        clue: <p>L'indice suivant se trouve en D9</p>
     },
     {
         id: 12,
         hash: "mb2bwqmyun",
         type: "Mot dans un livre",
-        location: "Au dos d'un livre dans mon bureau",
+        location: "Au dos du livre 'Pride and Prejudice and Zombies' dans ma table de nuit",
         riddle:
             <div>
+                <p>120-4-7-1</p>
+                <p>40-6-3-2</p>
+                <p>211-5-6-3</p>
+                <p>121-6-8-2</p>
+                <p>169-1-2-5</p>
+                <p>240-7-1-2</p>
+                <p>55-6-8-3</p>
             </div>,
-        answer: 0,
-        clue: <p>Clue</p>
+        answer: "BOUVIER",
+        clue: <p>L'indice suivant se trouve en B5</p>
     },
     {
         id: 13,
         hash: "jug2275uxf",
         type: "Message codé",
-        location: "?",
+        location: "Dans le tiroir sous le micro-ondes",
         riddle:
             <div>
-                <p className="aurebesh">{charsToSpans("message")}</p>
+                <p className="aurebesh">{charsToSpans("wapiti")}</p>
                 <p>=</p>
-                <p>{charsToSpans("MESSAGE")}</p>
+                <p>{charsToSpans("WAPITI")}</p>
                 <hr/>
                 <p className="aurebesh">
-                    {charsToSpans("mon super message code qui est super long et difficile")}
+                    {charsToSpans("dans le caisson qui soutient la moto en reparation")}
                 </p>
             </div>,
-        answer: null,
+        answer: "dans le caisson qui soutient la moto en reparation",
+        clue: null
+    },
+    {
+        id: 14,
+        hash: "8gq8qvym35",
+        type: "Math",
+        location: "Dans le caisson sous la moto",
+        riddle:
+            <div>
+                <code>b - a - c</code>
+                <div className="text-left my-4">
+                    <p>a = le nombre de croquettes alignées dans le poêle de la cuisine</p>
+                    <p>b = l'âge de Donald Trump le jour de la naissance de Greta Thunberg</p>
+                    <p>c = le nombre de tournevis rouges sur le bureau d'Irina</p>
+                </div>
+            </div>,
+        answer: 47,
+        clue: <p>L'indice suivant se trouve en E12</p>
+    },
+    {
+        id: 15,
+        hash: "p35kfbnd9p",
+        type: "Rébus",
+        location: "Derrière le bac des fraises",
+        riddle:
+            <div className="row">
+                <img className="image-fluid col-4" src={rebus41} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus42} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus43} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus44} alt="Rebus"/>
+                <img className="image-fluid col-4" src={rebus45} alt="Rebus"/>
+            </div>,
+        answer: "tomber dans les pommes",
+        clue: <p>L'indice suivant se trouve en B11</p>
+    },
+    {
+        id: 16,
+        hash: "n47v3us38k",
+        type: "Message codé",
+        location: "Sur le store du petit balcon",
+        riddle:
+            <div>
+                <p className="atlantean">{charsToSpans("auroch")}</p>
+                <p>=</p>
+                <p>{charsToSpans("auroch")}</p>
+                <hr/>
+                <p className="atlantean">
+                    {charsToSpans("le tresor se trouve dans le sechoir a la buanderie")}
+                </p>
+            </div>,
+        answer: "le tresor se trouve dans le sechoir a la buanderie",
         clue: null
     }
 ];

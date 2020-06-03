@@ -16,6 +16,11 @@
   src: url("./fonts/necrofonticon.ttf");
 }
 
+@font-face {
+  font-family: Atlantean;
+  src: url("./fonts/Atlantean.ttf");
+}
+
 body {
   font-family: 'Kalam', cursive;
 }
@@ -33,6 +38,11 @@ body {
 .necrofonticon {
   font-family: Necrofonticon, sans-serif;
   font-size: 1.5em;
+}
+
+.atlantean {
+  font-family: Atlantean, sans-serif;
+  font-size: 1.2em;
 }
 
 header {
