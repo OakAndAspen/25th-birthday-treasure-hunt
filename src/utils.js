@@ -5,12 +5,15 @@ export function isEqual(string1, string2) {
 }
 
 export function charsToSpans(string) {
-    let chars = string.split('');
+    let words = string.split(' ');
     return <span className="text-center">
-        {chars.map((c, i) =>
+        {words.map((w, i) =>
+            <span className="d-inline-block mx-3" key={i}>
+            {w.split('').map((c, j) =>
             <span className="border rounded m-1 d-inline-block text-center"
-                  key={i} style={{width: "20px"}}>
+                  key={"" + i + j} style={{width: "20px"}}>
                 {c}
             </span>)}
+        </span>)}
     </span>;
 }

@@ -77,9 +77,9 @@ export default [
         location: "Au milieu des bûches dans la cabane",
         riddle:
             <div>
-                <p className="necrofonticon">{charsToSpans("ocelot")}</p>
+                <p className="necrofonticon">{charsToSpans("estoc")}</p>
                 <p>=</p>
-                <p>{charsToSpans("OCELOT")}</p>
+                <p>{charsToSpans("ESTOC")}</p>
                 <hr/>
                 <p className="necrofonticon">
                     {charsToSpans("suspendu en haut des escaliers")}
@@ -115,8 +115,8 @@ export default [
                 <div className="text-left my-4">
                     <p>a = l'année de sortie de Pulp Fiction</p>
                     <p>b = le nombre actuel de films de la saga "Fast & Furious"</p>
-                    <p>b = le nombre de saisons de Rome</p>
-                    <p>c = le nombre de bûches dans la réserve à côté de notre cheminée</p>
+                    <p>c = le nombre de saisons de Rome</p>
+                    <p>d = le nombre de bûches dans la réserve à côté de notre cheminée</p>
                 </div>
             </div>,
         answer: 1977,
@@ -160,9 +160,9 @@ export default [
         location: "Suspendu derrière le rideau de la salle de bain",
         riddle:
             <div>
-                <p className="jungleslang">{charsToSpans("koala")}</p>
+                <p className="jungleslang">{charsToSpans("plaida")}</p>
                 <p>=</p>
-                <p>{charsToSpans("KOALA")}</p>
+                <p>{charsToSpans("PLAIDA")}</p>
                 <hr/>
                 <p className="jungleslang">
                     {charsToSpans("dans l arbre pres de la porte d entree")}
@@ -228,9 +228,9 @@ export default [
         location: "Dans le tiroir sous le micro-ondes",
         riddle:
             <div>
-                <p className="aurebesh">{charsToSpans("wapiti")}</p>
+                <p className="aurebesh">{charsToSpans("tapis")}</p>
                 <p>=</p>
-                <p>{charsToSpans("WAPITI")}</p>
+                <p>{charsToSpans("TAPIS")}</p>
                 <hr/>
                 <p className="aurebesh">
                     {charsToSpans("dans le caisson qui soutient la moto en reparation")}
