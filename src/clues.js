@@ -102,7 +102,7 @@ export default [
                 <p>2-1-6</p>
             </div>,
         answer: "GOLEM",
-        clue: <p>L'indice suivant se trouve en E6</p>
+        clue: <p>L'indice suivant se trouve en E7</p>
     },
     {
         id: 6,
@@ -120,13 +120,13 @@ export default [
                 </div>
             </div>,
         answer: 1977,
-        clue: <p>L'indice suivant se trouve en F12</p>
+        clue: <p>L'indice suivant se trouve en J10</p>
     },
     {
         id: 7,
         hash: "dg8fv6xqjb",
         type: "Rébus",
-        location: "Au milieu des plantes dans un bac du jardin",
+        location: "Dans la haie du jardin côté rue",
         riddle:
             <div className="row">
                 <img className="image-fluid col-4" src={rebus21} alt="Rebus"/>
@@ -151,13 +151,13 @@ export default [
                 <p>59-1-5-2</p>
             </div>,
         answer: "KARMA",
-        clue: <p>L'indice suivant se trouve en A8</p>
+        clue: <p>L'indice suivant se trouve en I5</p>
     },
     {
         id: 9,
         hash: "42w99atmjd",
         type: "Message codé",
-        location: "Suspendu derrière le rideau de la salle de bain",
+        location: "Sous le grill du jardin",
         riddle:
             <div>
                 <p className="jungleslang">{charsToSpans("plaida")}</p>
