@@ -58,7 +58,7 @@ export default [
         id: 3,
         hash: "2q7222m888",
         type: "Rébus",
-        location: "Dans le four",
+        location: "Dans l'étagère à épices en dessus des plaques",
         riddle:
             <div className="row">
                 <img className="image-fluid col-4" src={rebus11} alt="Rebus"/>

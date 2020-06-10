@@ -23,7 +23,7 @@ class App extends React.Component {
     }
 
     render() {
-        if(this.state.url === "/") return <Index/>;
+        if(this.state.url === "/pizza") return <Index/>;
         if(this.state.clue) return <Clue clue={this.state.clue}/>;
         return <NotFound/>;
     }
