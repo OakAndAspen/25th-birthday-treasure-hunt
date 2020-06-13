@@ -284,10 +284,10 @@ export default [
                 <p>{charsToSpans("auroch")}</p>
                 <hr/>
                 <p className="atlantean">
-                    {charsToSpans("le tresor se trouve dans le sechoir a la buanderie")}
+                    {charsToSpans("le tresor se trouve sur la machine a laver a la buanderie")}
                 </p>
             </div>,
-        answer: "le tresor se trouve dans le sechoir a la buanderie",
+        answer: "le tresor se trouve sur la machine a laver a la buanderie",
         clue: null
     }
 ];
